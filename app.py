@@ -50,3 +50,37 @@ while i <= 10:
     print(i * '#?')
     i += 1
 
+# -- Lists -- ##
+names = ["John", "Bob", "Mosh", "Sam", "Mary"]
+print(names[1])
+print(names[-2])
+print(names[1:-1])
+print(names[0:3])
+
+numbers=[1, 2, 3, 4, 5, 6]
+numbers.append(8)
+print(numbers)
+numbers.insert(3, -19)
+print(numbers)
+numbers.remove(5)
+print(numbers)
+print(-19 in numbers)
+print(97 in numbers)
+print(len(numbers))
+
+# -- For Loops -- ##
+new_numbers = [12, 13, 14, 15, 16]
+for item in new_numbers:
+    print(item)
+
+# -- range() Function -- ##
+my_list = range(10, 20, 2)
+print(my_list)
+for item in my_list:
+    print(item)
+
+# -- Tuples -- ##
+my_tuple = (1, 34, 8, 9, 23, 77, 8)
+print(my_tuple.count(8))
+
+
